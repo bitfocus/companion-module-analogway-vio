@@ -1,0 +1,11 @@
+{
+  "name": "analogway_vio",
+  "version": "0.0.1",
+  "description": "Analog Way multiformat converter VIO 4K plugin for Companion",
+  "main": "analogway_vio.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dorian Meid <meid@backstage.org>",
+  "license": "MIT"
+}
