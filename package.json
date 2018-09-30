@@ -1,6 +1,12 @@
 {
-  "name": "analogway_vio",
-  "version": "0.0.1",
+  "name": "vio",
+	"legacy": ["analogway_vio"],
+  "version": "1.0.0",
+	"api_version": "1.0.0",
+	"keywords": [ "Image Processing" ],
+	"manufacturer": "Analog Way",
+	"product": "VIO 4K",
+	"shortname": "vio",
   "description": "Analog Way multiformat converter VIO 4K plugin for Companion",
   "main": "analogway_vio.js",
   "scripts": {

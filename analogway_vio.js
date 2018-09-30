@@ -175,7 +175,7 @@ instance.prototype.actions = function(system) {
 	var self = this;
 	self.system.emit('instance_actions', self.id, {
 		/*
-		 	Note: For self generating commands use option ids 0,1,...,5 and 'value'.
+			 Note: For self generating commands use option ids 0,1,...,5 and 'value'.
 			The command will be of the form [valueof0],[valueof1],...[valueof5],[valueofvalue][CommandID]
 			for set-commands you need a value, for get-commands you mustn't have a value
 			for simple commands the value can be hardcoded in the CommandID, like "1PCrpr".
@@ -405,12 +405,6 @@ instance.prototype.sendcmd = function(cmd) {
 	}
 };
 
-
-instance.module_info = {
-	label: 'Analog Way VIO 4K',
-	id: 'analogway_vio',
-	version: '0.0.1'
-};
 
 instance_skel.extendedBy(instance);
 exports = module.exports = instance;
