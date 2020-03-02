@@ -1,3 +1,2 @@
-companion-module-vio
-
-More information in HELP.md
+# companion-module-vio
+See HELP.md and LICENSE
