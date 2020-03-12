@@ -1,7 +1,8 @@
 {
-	"name": "vio",
+	"name": "analogway-vio",
 	"legacy": [
-		"analogway_vio"
+		"analogway_vio",
+		"vio"
 	],
 	"version": "1.0.1",
 	"api_version": "1.0.0",
